@@ -1,0 +1,19 @@
+{
+  "name": "betproject-com/configs",
+  "type": "library",
+  "description": "BetProject configs",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nehkin Dmitriy"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "BetProject\\Dto\\ProxyService\\": "dto/ProxyService/",
+      "BetProject\\Enum\\": "enum/"
+    }
+  },
+  "require": {}
+}
